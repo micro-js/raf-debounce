@@ -1,0 +1,17 @@
+{
+  "name": "@f/raf-debounce",
+  "description": "Debounced raf function",
+  "repository": "git://github.com/micro-js/raf-debounce.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/raf": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
